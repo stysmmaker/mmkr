@@ -1,7 +1,7 @@
 {
   "name": "mmkr",
-  "version": "1.0.1",
-  "description": "After Effects Expression Library",
+  "version": "1.0.0",
+  "description": "MMaker's After Effects Expression Library",
   "main": "dist/mmkr.jsx",
   "scripts": {
     "test": "jest --watch",
@@ -14,18 +14,17 @@
     "type": "git",
     "url": ""
   },
-  "author": "",
+  "author": "MMaker",
   "license": "MIT",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
+  "homepage": "https://mmaker.moe",
   "devDependencies": {
     "@rollup/plugin-replace": "^2.4.1",
     "@rollup/plugin-typescript": "^8.2.0",
     "@types/jest": "^26.0.22",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
     "jest": "^26.6.3",
-    "prettier": "^2.2.1",
     "rollup": "^2.42.4",
     "rollup-plugin-ae-jsx": "^2.0.0",
     "ts-jest": "^26.5.4",
