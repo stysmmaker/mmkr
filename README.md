@@ -9,7 +9,7 @@ This expressions library is mostly a collection of tools I find personally usefu
 
 ## Usage
 
-1. Download the latest version of `mmkr.jsx` from the releases page.
+1. [Download the latest version of `mmkr.jsx` from the releases page.](https://github.com/stysmmaker/mmkr/releases)
 2. Import `mmkr.jsx` into your After Effects project.
 3. Reference the library in your expressions like so:
 
