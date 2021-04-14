@@ -51,9 +51,9 @@ function get_functions(time: number = thisLayer.time)
 	}
 
 	const YTPMV = {
-		flip: function(mult = 100, input_property = thisProperty)
+		flip: function(input_property = thisProperty, mult = 100)
 		{
-			const n = get_key_index(input_property);
+			const n = get_key_index(undefined, input_property);
 			return (n % 2 != 0 || n == 0) ? 1*mult : -mult;
 		},
 
