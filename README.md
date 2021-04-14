@@ -25,7 +25,7 @@ MMKR.inertial_bounce(5, 2, 4); // Apply a bounce to the current property
 
 You can also destructure the returned object:
 ```js
-const { inertial_bounce } = footage('mmkr.js').sourceData.get_functions();
+const { inertial_bounce } = footage('mmkr.jsx').sourceData.get_functions();
 inertial_bounce(5, 2, 4);
 ```
 
