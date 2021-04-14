@@ -32,9 +32,6 @@ inertial_bounce(5, 2, 4);
 ## Development
 
 ```sh
-git clone repoUrl.git
-cd mmkr
-
 # Automatically refresh .jsx output file
 npm run watch
 
